@@ -21,6 +21,13 @@ dart pub get
 
 3. Download model dan compile whisper_cpp [Whisper-Dart](https://github.com/azkadev/whisper_dart) 
 
+```c
+└── whisper_dart
+    ├── place_whisper_model_and_shared_library_here
+    ├── whisper.bin
+    └── whisper.so
+```
+
 4. run 
 
 ```bash
