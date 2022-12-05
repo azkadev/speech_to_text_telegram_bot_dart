@@ -1,4 +1,4 @@
-# Text To Speech Telegram Bot Dart 
+# Speech To Text Telegram Bot Dart 
 
 Telegram Speech to Text Bot Menggunakan library [Whisper-Dart](https://github.com/azkadev/whisper_dart) Full Offline Unlimited Transcribe without any api key
 
