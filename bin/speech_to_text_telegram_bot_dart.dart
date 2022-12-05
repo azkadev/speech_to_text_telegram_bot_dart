@@ -22,7 +22,7 @@ void main(List<String> arguments) async {
   int PORT = int.parse(Platform.environment["PORT"] ?? "8080");
   String HOST = Platform.environment["HOST"] ?? "0.0.0.0";
 
-  String token_bot = "5835327192:--fchM";
+  String token_bot = Platform.environment["token_bot"] ?? "";
   TelegramBotApiServer telegramBotApiServer = TelegramBotApiServer();
   telegramBotApiServer.run(
     executable: "telegram-bot-api",
