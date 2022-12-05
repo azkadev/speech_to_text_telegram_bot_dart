@@ -11,8 +11,10 @@ import 'package:path/path.dart' as p;
 
 import 'package:whisper_dart/whisper_dart.dart';
 import 'package:ffmpeg_dart/ffmpeg_dart.dart';
+ 
+void main(List<String> arguments) async { 
+  Args args = Args(arguments);
 
-void main(List<String> arguments) async {
   Directory current_dir = Directory.current;
   String db_bot_api = p.join(current_dir.path, "bot_api");
   Directory dir_bot_api = Directory(db_bot_api);
@@ -22,13 +24,13 @@ void main(List<String> arguments) async {
   int PORT = int.parse(Platform.environment["PORT"] ?? "8080");
   String HOST = Platform.environment["HOST"] ?? "0.0.0.0";
 
-  String token_bot = Platform.environment["token_bot"] ?? "";
+  String token_bot = args["--token_bot"] ?? "";
   TelegramBotApiServer telegramBotApiServer = TelegramBotApiServer();
   telegramBotApiServer.run(
     executable: "telegram-bot-api",
     arguments: telegramBotApiServer.optionsParameters(
-      api_id: "",
-      api_hash: '',
+      api_id: args["--api_id"] ?? "",
+      api_hash: args["--api_hash"] ?? "",
       http_port: "9000",
       dir: dir_bot_api.path,
     ),
@@ -130,7 +132,7 @@ void main(List<String> arguments) async {
         Map chat = msg["chat"];
         int chat_id = chat["id"];
         String? text = msg["text"];
-        Map? voice = msg["voice"]; 
+        Map? voice = msg["voice"];
         if (text != null) {
           if (RegExp(r"/start", caseSensitive: false).hasMatch(text)) {
             await tg.request("sendMessage", parameters: {
