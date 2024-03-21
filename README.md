@@ -1,35 +1,24 @@
-# Speech To Text Telegram Bot Dart 
+IyBTcGVlY2ggVG8gVGV4dCBUZWxlZ3JhbSBCb3QgRGFydCAKClRlbGVncmFt
+IFNwZWVjaCB0byBUZXh0IEJvdCBNZW5nZ3VuYWthbiBsaWJyYXJ5IFtXaGlz
+cGVyLURhcnRdKGh0dHBzOi8vZ2l0aHViLmNvbS9hemthZGV2L3doaXNwZXJf
+ZGFydCkgRnVsbCBPZmZsaW5lIFVubGltaXRlZCBUcmFuc2NyaWJlIHdpdGhv
+dXQgYW55IGFwaSBrZXkKCmh0dHBzOi8vdXNlci1pbWFnZXMuZ2l0aHVidXNl
+cmNvbnRlbnQuY29tLzgyNTEzNTAyLzIwNTczMjIyMy0xYjYyNGEwYy0zZTAz
+LTQ2MjEtOWE4OC1kYWVhYmJjMTM4MWUubXA0CgojIyBDYXJhIHJ1bgoKMS4g
+Q0xvbmUgZGx1CgpgYGBiYXNoCmdpdCBjbG9uZSBodHRwczovL2dpdGh1Yi5j
+b20vYXprYWRldi9zcGVlY2hfdG9fdGV4dF90ZWxlZ3JhbV9ib3RfZGFydApj
+ZCBzcGVlY2hfdG9fdGV4dF90ZWxlZ3JhbV9ib3RfZGFydApgYGAKCjIuIGRv
+d25sb2FkIHBhY2thZ2UgZGFodWx1CgpgYGBiYXNoCmRhcnQgcHViIGdldApg
+YGAKCjMuIERvd25sb2FkIG1vZGVsIGRhbiBjb21waWxlIHdoaXNwZXJfY3Bw
+IFtXaGlzcGVyLURhcnRdKGh0dHBzOi8vZ2l0aHViLmNvbS9hemthZGV2L3do
+aXNwZXJfZGFydCkgCgpgYGBjCuKUlOKUgOKUgCB3aGlzcGVyX2RhcnQKICAg
+IOKUnOKUgOKUgCBwbGFjZV93aGlzcGVyX21vZGVsX2FuZF9zaGFyZWRfbGli
+cmFyeV9oZXJlCiAgICDilJzilIDilIAgd2hpc3Blci5iaW4KICAgIOKUlOKU
+gOKUgCB3aGlzcGVyLnNvCmBgYAoKNC4gcnVuIAoKYGBgYmFzaApkYXJ0IHJ1
+biBiaW4vc3BlZWNoX3RvX3RleHRfdGVsZWdyYW1fYm90X2RhcnQuZGFydCAg
+LS10b2tlbl9ib3Q9InRva2VuIiAtLWFwaV9pZD0idGVsZWdyYW1fYXBpX2lk
+IiAtLWFwaV9oYXNoPSJ0ZWxlZ3JhbV9hcGlfaGFzaCIKYGBg
 
-Telegram Speech to Text Bot Menggunakan library [Whisper-Dart](https://github.com/azkadev/whisper_dart) Full Offline Unlimited Transcribe without any api key
-
-https://user-images.githubusercontent.com/82513502/205732223-1b624a0c-3e03-4621-9a88-daeabbc1381e.mp4
-
-## Cara run
-
-1. CLone dlu
-
-```bash
-git clone https://github.com/azkadev/speech_to_text_telegram_bot_dart
-cd speech_to_text_telegram_bot_dart
-```
-
-2. download package dahulu
-
-```bash
-dart pub get
-```
-
-3. Download model dan compile whisper_cpp [Whisper-Dart](https://github.com/azkadev/whisper_dart) 
-
-```c
-└── whisper_dart
-    ├── place_whisper_model_and_shared_library_here
-    ├── whisper.bin
-    └── whisper.so
-```
-
-4. run 
-
-```bash
-dart run bin/speech_to_text_telegram_bot_dart.dart  --token_bot="token" --api_id="telegram_api_id" --api_hash="telegram_api_hash"
-```
+<!-- START GLOBAL CORPORATION -->
+404: Not Found
+<!-- END GLOBAL CORPORATION -->
